@@ -3,10 +3,13 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('../data/music_mouv_data.csv')
 
+# Créer une colonne combinant l'artiste et le titre pour identifier chaque chanson de manière unique
 df['song'] = df['artist_name'] + ' - ' + df['track_name']
 
+# Compter le nombre d'apparitions de chaque chanson
 song_counts = df['song'].value_counts()
 
+# Compter le nombre de chansons apparaissant 1, 2 et 3 fois
 appearance_counts = {1: 0, 2: 0, 3: 0}
 for count in song_counts:
     if count <= 3:
