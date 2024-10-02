@@ -10,3 +10,20 @@
 
 # Q4
 ![img_3.png](img_3.png)
+
+# Q6
+Taille de l'ensemble d'entraînement: 102
+Taille de l'ensemble de test: 26
+---
+Taille de l'ensemble d'entraînement: 102
+Taille de l'ensemble de test: 26
+---
+Taille de l'ensemble d'entraînement: 102
+Taille de l'ensemble de test: 26
+---
+Taille de l'ensemble d'entraînement: 103
+Taille de l'ensemble de test: 25
+---
+Taille de l'ensemble d'entraînement: 103
+Taille de l'ensemble de test: 25
+---
