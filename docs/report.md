@@ -61,4 +61,16 @@ Précision micro moyenne : 0.3900
 Écart-type de la précision micro : 0.0738
 
 ## Q3
+![img_7.png](img_7.png)
 
+Scores de précision micro pour chaque fold :
+Fold 1: 0.5769
+Fold 2: 0.6538
+Fold 3: 0.5000
+Fold 4: 0.4000
+Fold 5: 0.6000
+
+Précision micro moyenne : 0.5462
+Écart-type de la précision micro : 0.0882
+
+## Q4
