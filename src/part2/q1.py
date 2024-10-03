@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Chargement et préparation des données
 df = pd.read_csv('../../data/music_mouv_data.csv')
-df_filtered = df[df['emotion'].isin(['Joyful Activation', 'Tension'])]
+df_filtered = df[df['emotion'].isin(['Joyful Activation', 'Tension', 'Wonder', 'Tension', 'Neutral'])]
 
 # Identifier les colonnes non numériques et les encoder
 X = df_filtered.drop(['emotion', 'participant_id'], axis=1)
