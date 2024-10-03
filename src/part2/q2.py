@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Chargement et préparation des données
 df = pd.read_csv('../../data/music_mouv_data.csv')
-df_filtered = df[df['emotion'].isin(['Joyful Activation', 'Tension', 'Wonder', 'Tension', 'Neutral'])]
+df_filtered = df[df['emotion'].isin(['Joyful Activation', 'Tension'])]
 X = df_filtered.drop(['emotion', 'participant_id'], axis=1)
 
 # Si certaines colonnes contiennent des chaînes, il faut les encoder
