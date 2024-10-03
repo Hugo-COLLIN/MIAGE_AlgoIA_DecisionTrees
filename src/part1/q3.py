@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('../data/music_mouv_data.csv')
+df = pd.read_csv('../../data/music_mouv_data.csv')
 df['song'] = df['artist_name'] + ' - ' + df['track_name']
 
 # Identifier les chansons qui apparaissent trois fois

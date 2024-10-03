@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('../data/music_mouv_data.csv')
+df = pd.read_csv('../../data/music_mouv_data.csv')
 
 # Sélectionner les colonnes quantitatives (caractéristiques physiologiques et musicales)
 features = df.select_dtypes(include=['float64', 'int64']).columns

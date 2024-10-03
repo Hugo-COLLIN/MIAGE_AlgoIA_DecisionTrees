@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../data/music_mouv_data.csv')
+df = pd.read_csv('../../data/music_mouv_data.csv')
 
 # Filtrez les données pour ne garder que les lignes où l'émotion est 'joie' ou 'tension'
 df_filtered = df[df['emotion'].isin(['Joyful Activation', 'Tension'])]
